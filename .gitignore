@@ -1,0 +1,91 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Ignore compiled bytecode
+*.so
+
+# Ignore Python cache directories everywhere
+**/__pycache__/
+
+# -------------------------
+# Virtual Environments
+# -------------------------
+venv/
+.venv/
+venv310/
+ENV/
+env/
+
+# -------------------------
+# Project-Specific Folders
+# -------------------------
+evidence_images/
+screenshots/
+logs/
+face_db/
+uploads/
+temp/
+output/
+
+# -------------------------
+# YOLO / ML Model Files
+# -------------------------
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pb
+*.tflite
+
+# -------------------------
+# Environment / Secrets
+# -------------------------
+.env
+*.env
+config.json
+db_credentials.json
+
+# -------------------------
+# CSV/Generated Data Files
+# -------------------------
+*.csv
+*.sqlite
+*.db
+*.pickle
+*.pkl
+
+# object detection results
+object_detections.csv
+
+# -------------------------
+# VSCode Settings
+# -------------------------
+.vscode/
+
+# -------------------------
+# OS Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Node / JS (if frontend added later)
+# -------------------------
+node_modules/
+dist/
+build/
+
+# -------------------------
+# Backup / Misc
+# -------------------------
+*.bak
+*.tmp
