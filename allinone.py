@@ -5,6 +5,10 @@ import os
 import time
 from datetime import datetime
 import mediapipe as mp
+from googleapiclient.discovery import build
+from googleapiclient.http import MediaFileUpload
+from google.oauth2 import service_account
+
 
 # ----------------------------
 # Load Models
@@ -35,6 +39,9 @@ if not csv_exists:
 # Start Webcam
 # ----------------------------
 cap = cv2.VideoCapture(0)
+if not cap.isOpened():
+    print("❌ Camera not opened")
+    exit()
 if not cap.isOpened():
     print("[ERROR] Webcam not found or already in use!")
     exit()
