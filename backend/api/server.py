@@ -8,7 +8,8 @@ CORS(app)
 
 # Absolute path to virtual environment python
 VENV_PYTHON = r"C:\Users\X\anaconda3\envs\fyp_env\python.exe"
-AI_SCRIPT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "allinone.py")
+BACKEND_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+AI_SCRIPT = os.path.join(BACKEND_DIR, "proctoring", "allinone.py")
 
 @app.route("/start-camera", methods=["GET"])
 

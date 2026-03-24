@@ -1,20 +1,20 @@
 // App.tsx
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Select from './components/select';
-import Login from './components/login';
-import SignUp from './components/signup';
-import StudentDashBoard from './components/studentdashboard';
-import ExamInstructions from './components/examinstructions';
-import AdminDashboard from './components/admindashboard';
-import AddQuestion from './components/addquestion';
-import Objective from './components/objective';
-import Subjective from './components/subjective';
-import ViewResult from './components/viewresult';
-import StartSubjectiveExam from './components/startsubjectiveexam';
-import StartObjectiveExam from './components/startobjectiveexam';
-import CheckExam from './components/checkexam';
-import CheckMarks from './components/checkmarks';
-import StudentAttendence from './components/studentattendence';
+import Select from './components/exam/select';
+import Login from './components/auth/login';
+import SignUp from './components/auth/signup';
+import StudentDashBoard from './components/student/studentdashboard';
+import ExamInstructions from './components/exam/examinstructions';
+import AdminDashboard from './components/admin/admindashboard';
+import AddQuestion from './components/admin/addquestion';
+import Objective from './components/exam/objective';
+import Subjective from './components/exam/subjective';
+import ViewResult from './components/student/viewresult';
+import StartSubjectiveExam from './components/exam/startsubjectiveexam';
+import StartObjectiveExam from './components/exam/startobjectiveexam';
+import CheckExam from './components/admin/checkexam';
+import CheckMarks from './components/admin/checkmarks';
+import StudentAttendence from './components/student/studentattendence';
 
 
 import './App.css'; 
