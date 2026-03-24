@@ -1,0 +1,179 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Segoe UI",sans-serif;
+}
+
+/* PAGE */
+
+.sdb-page{
+min-height:100vh;
+background:linear-gradient(135deg,#0f172a,#1e293b);
+color:white;
+}
+
+/* BACK BUTTON */
+
+.sdb-back-btn{
+position:absolute;
+top:20px;
+left:20px;
+background:#334155;
+border:none;
+color:white;
+margin-top: 13px;
+margin-left: 15px;
+padding:8px 14px;
+font-size:18px;
+border-radius:6px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.sdb-back-btn:hover{
+background:#475569;
+transform:scale(1.05);
+}
+
+
+/* NAVBAR */
+
+.sdb-navbar{
+height:70px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 60px;
+background:#020617;
+border-bottom:1px solid #334155;
+}
+
+.sdb-logo{
+font-size:22px;
+font-weight:600;
+color:#38bdf8;
+}
+
+.sdb-nav-right{
+display:flex;
+gap:20px;
+}
+
+.sdb-logout-btn{
+background:#ef4444;
+border:none;
+padding:8px 16px;
+border-radius:6px;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+.sdb-logout-btn:hover{
+background:#dc2626;
+}
+
+
+/* HERO SECTION */
+
+.sdb-hero{
+text-align:center;
+margin-top:60px;
+}
+
+.sdb-hero h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.sdb-hero p{
+color:#94a3b8;
+font-size:16px;
+}
+
+
+/* MAIN */
+
+.sdb-main{
+display:flex;
+justify-content:center;
+margin-top:60px;
+padding-bottom:80px;
+}
+
+
+/* CARD */
+
+.sdb-card{
+background:#1e293b;
+padding:40px;
+border-radius:12px;
+width:400px;
+box-shadow:0 15px 40px rgba(0,0,0,0.6);
+}
+
+.sdb-card h2{
+margin-bottom:25px;
+text-align:center;
+}
+
+/* FORM */
+
+.sdb-card label{
+font-size:14px;
+color:#cbd5f5;
+margin-bottom:6px;
+display:block;
+}
+
+.sdb-card select{
+width:100%;
+padding:10px;
+margin-bottom:16px;
+border:none;
+border-radius:6px;
+background:#334155;
+color:white;
+}
+
+
+/* BUTTONS */
+
+.sdb-btns{
+display:flex;
+gap:10px;
+margin-top:10px;
+}
+
+.sdb-start-btn{
+flex:1;
+padding:10px;
+border:none;
+border-radius:6px;
+background:#38bdf8;
+color:white;
+font-size:15px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.sdb-start-btn:hover{
+background:#0ea5e9;
+}
+
+.sdb-marks-btn{
+flex:1;
+padding:10px;
+border:none;
+border-radius:6px;
+background:#6366f1;
+color:white;
+font-size:15px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.sdb-marks-btn:hover{
+background:#4f46e5;
+}

@@ -7,8 +7,8 @@ app = Flask(__name__)
 CORS(app)
 
 # Absolute path to virtual environment python
-VENV_PYTHON = r"D:\fyp\face_module\face_auth_project\venv310\Scripts\python.exe"
-AI_SCRIPT = r"D:\fyp\face_module\face_auth_project\allinone.py"
+VENV_PYTHON = r"C:\Users\X\anaconda3\envs\fyp_env\python.exe"
+AI_SCRIPT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "allinone.py")
 
 @app.route("/start-camera", methods=["GET"])
 

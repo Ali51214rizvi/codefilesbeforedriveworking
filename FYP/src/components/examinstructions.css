@@ -1,0 +1,144 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Segoe UI",sans-serif;
+}
+
+/* PAGE */
+
+.examinst-wrapper{
+min-height:100vh;
+background:linear-gradient(135deg,#0f172a,#1e293b);
+color:white;
+}
+
+/* NAVBAR */
+
+.examinst-navbar{
+display:flex;
+align-items:center;
+padding:20px 40px;
+background:#111827;
+box-shadow:0 4px 15px rgba(0,0,0,0.4);
+}
+
+.examinst-navbar h2{
+margin:auto;
+font-weight:600;
+}
+
+.examinst-back-btn{
+background:#1e293b;
+border:none;
+color:white;
+font-size:18px;
+padding:8px 12px;
+border-radius:6px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.examinst-back-btn:hover{
+background:#334155;
+}
+
+/* CONTAINER */
+
+.examinst-container{
+display:flex;
+justify-content:center;
+align-items:center;
+padding:60px 20px;
+}
+
+/* CARD */
+
+.examinst-card{
+background:#1e293b;
+padding:40px;
+width:700px;
+border-radius:12px;
+box-shadow:0 20px 40px rgba(0,0,0,0.6);
+}
+
+/* TITLE */
+
+.examinst-card h1{
+font-size:30px;
+margin-bottom:10px;
+}
+
+.examinst-subtitle{
+color:#94a3b8;
+margin-bottom:30px;
+}
+
+/* EXAM INFO */
+
+.examinst-info{
+display:flex;
+justify-content:space-between;
+margin-bottom:30px;
+background:#111827;
+padding:20px;
+border-radius:8px;
+}
+
+.examinst-info span{
+font-size:13px;
+color:#94a3b8;
+}
+
+.examinst-info p{
+font-size:16px;
+margin-top:4px;
+}
+
+/* RULES */
+
+.examinst-rules{
+margin-bottom:30px;
+}
+
+.examinst-rules h3{
+margin-bottom:10px;
+}
+
+.examinst-rules ul{
+padding-left:20px;
+line-height:1.8;
+color:#cbd5f5;
+}
+
+/* START BUTTON */
+
+.examinst-start-btn{
+width:100%;
+padding:14px;
+background:#38bdf8;
+border:none;
+border-radius:8px;
+font-size:16px;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+.examinst-start-btn:hover{
+transform:translateY(-2px);
+}
+
+.examinst-start-btn.disabled{
+background:#475569;
+cursor:not-allowed;
+}
+
+/* ERROR */
+
+.examinst-error{
+margin-top:15px;
+color:#f87171;
+font-size:14px;
+text-align:center;
+}
